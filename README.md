@@ -37,7 +37,7 @@ This project connects an Arduino with AWS cloud services. It collects sensor dat
 
 ###  Dynamo db data entry
 
-![alt text](<Screenshot 2025-02-07 121112.png>)
+![alt text](dynamodb.png)
 
 ### Lambda Function
 
@@ -46,9 +46,11 @@ This project connects an Arduino with AWS cloud services. It collects sensor dat
 ### S3 data entry
 
 distance data
+
 ![alt text](<S3 Storage Distance.png>)
 
 temperature data
+
 ![alt text](<Screenshot 2025-02-10 164706.png>)
 
 ### Alarm
