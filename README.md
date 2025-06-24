@@ -3,7 +3,7 @@
 This project connects an Arduino with AWS cloud services. It collects sensor data using Arduino and sends it to AWS IoT Core. From there, the data is processed using AWS Lambda and stored in S3. Logs can be viewed and monitored  in Cloud Watch. Cloud Watch Alarm is set for unusual behaviour.
 
 ##  Architecture
-   ![alt text](<Screenshot 2025-02-09 194243.png>)
+   ![Architecture Diagram](<images/Architecture diagram.png>)
 
 
 ##  AWS Services Used
@@ -37,29 +37,29 @@ This project connects an Arduino with AWS cloud services. It collects sensor dat
 
 ###  Dynamo db data entry
 
-![alt text](dynamodb.png)
+   ![Dynamo db](dynamodb-3.png)
 
 ### Lambda Function
 
-![alt text](<Screenshot 2025-02-07 175748.png>)
+![Lambda Function](<images/Lambda function.png>)
 
 ### S3 data entry
 
 distance data
 
-![alt text](<S3 Storage Distance.png>)
+![Distance Data](<images/S3 Storage Distance.png>)
 
 temperature data
 
-![alt text](<Screenshot 2025-02-10 164706.png>)
+![Temperature Data](<images/S3 Storage Temperature.png>)
 
 ### Alarm
 
-![alt text](<Screenshot 2025-02-07 120449.png>)
+![Alarm](<images/Alarm.png>)
 
-### Cloud trail
+### CloudTrail
 
-![alt text](cloudtrail.png)
+![CloudTrail](images/cloudtrail.png)
 
 ## Monitoring and Alerting 
 - CloudWatch logs, CloudTrail logs, alarms and SNS services help to monitor activity and notify unusual events.
