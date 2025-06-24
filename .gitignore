@@ -1,0 +1,23 @@
+# Python
+_pycache_/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+venv/
+env/
+
+# Arduino
+*.hex
+*.elf
+*.bin
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# VS Code
+.vscode/
